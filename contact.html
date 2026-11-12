@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blessing Lawrence, Cyber Security student portfolio">
+    <title>Contact | Blessing Lawrence</title>
+    <link rel="stylesheet" href="style.css">
+      <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav container"><a class="brand" href="index.html">LAUBEX TECHNOLOGIES<span></span></a><button
+                class="menu-toggle" aria-expanded="false" aria-controls="nav-menu">☰ Menu</button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="planner.html">Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h1>Contact Me</h1>
+                <p>For academic connections, project discussions, and learning opportunities.</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container contact-layout">
+                <aside class="contact-side">
+                    <h2>Get in touch</h2>
+                    <p>I welcome opportunities to connect, collaborate, and learn more about cyber security.</p>
+                    <p><strong>Email</strong><br><a
+                            href="mailto:udenyiblessing02@gmail.com">udenyiblessing02@gmail.com</a></p>
+                    <p><strong>Phone</strong><br><a href="tel:07045590319">07045590319</a></p>
+                    <p><strong>Course</strong><br>Cyber Security</p>
+                    <p><strong>Career goal</strong><br>Digital Forensic Analyst</p>
+                </aside>
+                <article class="card">
+                    <h2>Send a message</h2>
+                    <form id="contact-form" class="contact-form" novalidate>
+                        <div class="form-two">
+                            <div><label for="full-name">Name</label><input class="field" id="full-name" required></div>
+                            <div><label for="email">Email address</label><input class="field" id="email" type="email"
+                                    required></div>
+                        </div>
+                        <div><label for="phone">Phone number</label><input class="field" id="phone" inputmode="numeric"
+                                placeholder="Digits only" required></div>
+                        <div><label for="message">Message</label><textarea class="field" id="message" rows="5"
+                                required></textarea></div><button class="btn btn-primary">Validate message</button>
+                        <p id="contact-feedback" aria-live="polite"></p><small class="muted">Demo form: validates
+                            entries but does not send messages. A backend or form service is required to receive
+                            submissions.</small>
+                    </form>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-inner"><span>© <span data-year></span> Blessing Lawrence</span><span>Student
+                Portfolio · Cyber Security</span></div>
+    </footer>
+</body>
+
+</html>
